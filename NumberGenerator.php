@@ -1,5 +1,6 @@
 <?php
-class NumberGenerator {
+class NumberGenerator
+{
 	/**
 	* Prints "Linio" for multiplies of 3, "IT" for multiplies of 5 and "Linianos" for multiplies of both 3 & 5
 	*
@@ -8,7 +9,8 @@ class NumberGenerator {
 	*
 	* @return void
 	*/
-	public static function numberPrint(int $start, int $end): void {
+	public static function numberPrint(int $start, int $end): void 
+	{
 		for ($num = $start; $num <= $end; $num++) {
 			switch($num) {
 				case ($num % 3 == 0 && $num % 5 == 0):
