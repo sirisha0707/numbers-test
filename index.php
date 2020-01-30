@@ -25,4 +25,4 @@ function numberPrint(int $start, int $end): void {
     }
 }
 
-numberPrint(1, 100);
+numberPrint(1, 100); // Call the method
