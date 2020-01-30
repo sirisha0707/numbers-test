@@ -1,5 +1,4 @@
 <?php
-
 class NumberGenerator {
 	/**
 	* Prints "Linio" for multiplies of 3, "IT" for multiplies of 5 and "Linianos" for multiplies of both 3 & 5
