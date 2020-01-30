@@ -8,7 +8,7 @@ class NumberGenerator {
 	*
 	* @return void
 	*/
-	public function numberPrint(int $start, int $end): void {
+	public static function numberPrint(int $start, int $end): void {
 		for ($num = $start; $num <= $end; $num++) {
 			switch($num) {
 				case ($num % 3 == 0 && $num % 5 == 0):
@@ -27,5 +27,4 @@ class NumberGenerator {
 	}
 }
 
-$objNumGenerator = new NumberGenerator();
-$objNumGenerator->numberPrint(1, 100);
+NumberGenerator::numberPrint(1, 100);	// Calling the method
